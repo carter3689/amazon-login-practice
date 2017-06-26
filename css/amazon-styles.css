@@ -1,3 +1,13 @@
+.container{
+  width: 508px;
+  height: 298px;
+  margin: 0 auto;
+  padding:20px 0px 20px 30px;
+}
+
+.form-center{
+  margin-left: 13%;
+}
 fieldset{
   border: 1px solid #DDDDDD;
   background: #FFFFFF;
@@ -8,21 +18,16 @@ fieldset{
   display:inline;
   margin: 0 auto;
 }
+
 .img-center{
   margin: 0 auto;
   display: block;
   width: 17%;
+  text-align: center;
 }
 h3{
   font-family: Arial,sans-serif;
   font-size: 26.6px;
-}
-.background{
-  width: 508px;
-  height: 298px;
-  margin: 0 auto;
-  padding-left: 30px;
-  border-radius: 5px;
 }
 .forgotpass a{
   float:right;
@@ -52,7 +57,7 @@ h3{
 }
 /* Submit Button */
 .submitbutton{
-    padding-top:14px;
+  padding-top:14px;
 }
 .submitbutton input{
   height: 35px;
